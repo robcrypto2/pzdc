@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/pzdc_bg.qm</file>
+        <file alias="ca">locale/pzdc_ca.qm</file>
+        <file alias="cs">locale/pzdc_cs.qm</file>
+        <file alias="da">locale/pzdc_da.qm</file>
+        <file alias="de">locale/pzdc_de.qm</file>
+        <file alias="en">locale/pzdc_en.qm</file>
+        <file alias="en_US">locale/pzdc_en_US.qm</file>
+        <file alias="es">locale/pzdc_es.qm</file>
+        <file alias="fi">locale/pzdc_fi.qm</file>
+        <file alias="fr_FR">locale/pzdc_fr_FR.qm</file>
+        <file alias="it">locale/pzdc_it.qm</file>
+        <file alias="ja">locale/pzdc_ja.qm</file>
+        <file alias="ko_KR">locale/pzdc_ko_KR.qm</file>
+        <file alias="nl">locale/pzdc_nl.qm</file>
+        <file alias="pl">locale/pzdc_pl.qm</file>
+        <file alias="pt">locale/pzdc_pt.qm</file>
+        <file alias="pt_BR">locale/pzdc_pt_BR.qm</file>
+        <file alias="ro_RO">locale/pzdc_ro_RO.qm</file>
+        <file alias="ru">locale/pzdc_ru.qm</file>
+        <file alias="sk">locale/pzdc_sk.qm</file>
+        <file alias="sv">locale/pzdc_sv.qm</file>
+        <file alias="uk">locale/pzdc_uk.qm</file>
+        <file alias="zh_CN">locale/pzdc_zh_CN.qm</file>
+        <file alias="zh_TW">locale/pzdc_zh_TW.qm</file>
+    </qresource>
+</RCC>

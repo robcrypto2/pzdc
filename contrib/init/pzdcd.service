@@ -1,0 +1,26 @@
+[Unit]
+Description=PZDC's distributed currency daemon
+After=network.target
+
+[Service]
+User=pzdc
+Group=pzdc
+
+Type=forking
+PIDFile=/var/lib/pzdcd/pzdcd.pid
+
+ExecStart=/usr/bin/pzdcd -daemon -pid=/var/lib/pzdcd/pzdcd.pid \
+          -conf=/etc/pzdc/pzdc.conf -datadir=/var/lib/pzdcd
+
+ExecStop=-/usr/bin/pzdc-cli -conf=/etc/pzdc/pzdc.conf \
+         -datadir=/var/lib/pzdcd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

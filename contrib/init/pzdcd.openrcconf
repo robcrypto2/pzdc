@@ -1,0 +1,26 @@
+# /etc/conf.d/pzdcd: config file for /etc/init.d/pzdcd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/pzdc/pzdc.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/pzdcd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/pzdcd.pid"
+
+# Where to write pzdcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/pzdcd"
+
+# User and group to own pzdcd process
+#BITCOIND_USER="pzdc"
+#BITCOIND_GROUP="pzdc"
+
+# Path to pzdcd executable
+#BITCOIND_BIN="/usr/bin/pzdcd"
+
+# Nice value to run pzdcd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

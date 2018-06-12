@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pzdc
+Comment=Pzdc P2P Cryptocurrency
+Comment[fr]=Pzdc, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Pzdc, eşten eşe kriptografik sanal para birimi
+Exec=pzdc-qt %u
+Terminal=false
+Type=Application
+Icon=pzdc128
+MimeType=x-scheme-handler/pzdc;
+Categories=Office;Finance;
